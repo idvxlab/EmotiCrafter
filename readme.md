@@ -55,7 +55,7 @@ You need to download the [Stable Diffusion XL Base 1.0 model](https://huggingfac
 ##### a. Preprocess the Data
 
 ```bash
-python preprocess.py --sdxl_path /data/emo_generation/emo_generator/local/stable-diffusion-xl-base-1.0
+python preprocess.py --sdxl_path [pretrained SDXL]
 ```
 
 ##### b. Start Training
