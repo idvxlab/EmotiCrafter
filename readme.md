@@ -16,7 +16,7 @@ We introduce the task of **Continuous Emotional Image Content Generation (C-EICG
 * Leverages a new **emotion-embedding mapping network** to fuse V-A signals into text features
 * Uses a **custom loss function** to improve emotional fidelity
 
-👉 [Try EmotiCrafter Demo on Hugging Face](https://huggingface.co/spaces/idvxlab/EmotiCrafter) *(coming soon)*
+👉 [Try EmotiCrafter Demo on Hugging Face](https://huggingface.co/spaces/idvxlab/EmotiCrafter) 
 
 
 ## 🛠️ Setup Guide
@@ -48,7 +48,7 @@ You need to download the [Stable Diffusion XL Base 1.0 model](https://huggingfac
 
 ####  Option A: Use Pretrained Model (TBD)
 
-> Pretrained model will be released soon.
+Download the pretrained modal from [model](https://huggingface.co/spaces/idvxlab/EmotiCrafter/tree/main/model) and place it appropriately.
 
 ####  Option B: Train Your Own Model
 
