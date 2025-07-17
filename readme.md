@@ -16,6 +16,8 @@ We introduce the task of **Continuous Emotional Image Content Generation (C-EICG
 * Leverages a new **emotion-embedding mapping network** to fuse V-A signals into text features
 * Uses a **custom loss function** to improve emotional fidelity
 
+👉 [Try EmotiCrafter Demo on Hugging Face](https://huggingface.co/spaces/idvxlab/EmotiCrafter) *(coming soon)*
+
 
 ## 🛠️ Setup Guide
 
@@ -100,4 +102,9 @@ python inference5x5.py \
   --seed 0
 ```
 
+
+
+We thank the **[Stable Diffusion XL (SDXL)](https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0)**, **[FindingEmo](https://arxiv.org/abs/2402.01355)** the their excellent works, which made this work possible.
+
+If you use **EmotiCrafter** in your research or applications, please cite our work.
 
