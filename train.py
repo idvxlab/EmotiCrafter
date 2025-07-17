@@ -99,6 +99,7 @@ def main():
     parser.add_argument('--scale_factor', type=float, default=1.0)
     parser.add_argument('--wandb_name', type=str, default="your experiment name")
     parser.add_argument('--enable_density',type=bool,default=False)
+    parser.add_argument('--data_cache_path',type=str,default="./data/data-cache.pt")
     args = parser.parse_args()
     
     use_wandb = False
@@ -109,7 +110,7 @@ def main():
     n_gpu = torch.cuda.device_count()
     
     
-    data = torch.load('/data/emo_generation/emo_generator/dsq/f2f-xl/ckpt/data-all.pt')
+    data = torch.load(args.data_cache_path)
     
     alist,vlist = np.array([item['arousal'] for item in data]),np.array([item['valence'] for item in data])
     h = 1
