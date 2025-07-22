@@ -46,9 +46,9 @@ You need to download the [Stable Diffusion XL Base 1.0 model](https://huggingfac
 
 ### 4. Download Pretrained Model or Train Your Own
 
-####  Option A: Use Pretrained Model (TBD)
+####  Option A: Use Pretrained Model
 
-You could download the pretrained modal from [this url](https://huggingface.co/spaces/idvxlab/EmotiCrafter/tree/main/model) and place it appropriately.
+You could download the pretrained modal from [this url](https://huggingface.co/idvxlab/EmotiCrafter/tree/main) and place it appropriately.
 
 ####  Option B: Train Your Own Model
 
