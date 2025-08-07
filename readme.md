@@ -105,6 +105,13 @@ python inference5x5.py \
 
 
 We thank the **[Stable Diffusion XL (SDXL)](https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0)**, **[FindingEmo](https://arxiv.org/abs/2402.01355)**, **[OASIS](https://link.springer.com/content/pdf/10.3758/s13428-016-0715-3.pdf)**, and **[Emotic](https://openaccess.thecvf.com/content_cvpr_2017_workshops/w41/papers/Lapedriza_EMOTIC_Emotions_in_CVPR_2017_paper.pdf)** for the their excellent works, which made this work possible.
-
 If you use **EmotiCrafter** in your research or applications, please cite our work.
 
+```
+@article{dang2025emoticrafter,
+  title={Emoticrafter: Text-to-emotional-image generation based on valence-arousal model},
+  author={Dang, Shengqi and He, Yi and Ling, Long and Qian, Ziqing and Zhao, Nanxuan and Cao, Nan},
+  journal={arXiv preprint arXiv:2501.05710},
+  year={2025}
+}
+```
